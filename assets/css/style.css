@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: #777777;
+}
+
+h1 {
+    padding: 20px;
+    margin: 20px;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: white;
+    background-color: #4aaaa5;
+    text-align: center;
+    border: 2px teal solid;
+    position: relative;
+    width: 20%;
+    display: inline-block;
+
+}
+
+h2 {
+    font-size: 28px;
+    padding: 30px;
+}
+
+.AboutMe {
+    border:6px outset white;
+    background-color: white;
+    padding-left: 220px;
+    margin-top: 50epx;
+    margin-left: 60px;
+    width: 80%;
+}
+
+img {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding: 30px;
+
+}
+
+.about{
+    float: left;
+}
+
+.portfolio{
+    float: left;
+}
+
+.contact{
+    float: left;
+}
+
+.headerLinks {
+    float: right;
+    width: 70%;
+}
