@@ -102,7 +102,7 @@ footer {
 form {
     border:6px outset solid black;
     background-color: white;
-    padding-left: 20px;
+    padding-left auto;
     margin: 0 auto 0 auto;
     width: 950px;
     padding-top: 20px;
@@ -148,7 +148,7 @@ form {
       padding: 30px;
   }
 
-  input[type=submit] {
+input[type=submit] {
     background-color: #4faba5;
     color: white;
     padding: 12px 20px;
@@ -159,4 +159,59 @@ form {
 
 input[type=submit]:hover {
     background-color: #4faba5;
+}
+
+.hangman{
+    float: left;
+    margin-left: auto;
+    position: relative;
+}
+
+.RPG_game {
+    float: left;
+    position: relative;
+    width: 60%;
+
+}
+
+.Trivia_game {
+    float: left;
+    position: relative;
+
+}
+
+.rutger_info_widget {
+    position: relative;;
+    float: left;
+    width: 60%;
+}
+
+.Rock_Paper_Scissor {
+    position: relative;
+    float: left;
+
+}
+
+.portfolio {
+    color: #4faba5;
+}
+
+.text {
+    position: absolute;
+    background-color: #4faba5;
+    color: white;
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 125px;
+    text-align: center;
+}
+
+.text-rps {
+    background-color: #4faba5;
+    position: absolute;
+    color: white;
+    margin-left: 20px;
+    margin-top: 510px;
+    width: 200px;
+    text-align: center;
 }
