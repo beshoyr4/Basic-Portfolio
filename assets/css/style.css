@@ -45,6 +45,7 @@ h2 {
     height: 750px;
     font-size: 20px;
     line-height: 30px;
+    /* clear: left; */
 }
 
 img {
@@ -120,7 +121,7 @@ form {
     margin: 0px auto;
     box-sizing: border-box;
     padding: 40px;
-  }
+}
   
 .input,.msg .area{
     width: 100%;
@@ -132,22 +133,22 @@ form {
     border-radius: 5px;
     outline: none;
     height: 30px;
-  }
+}
   
   
-  .login .input:last-child{
+.login .input:last-child{
     margin-right: 0;
-  }
+}
   
-  .msg .area{
+.msg .area{
     height: 200px;
-  }
+}
 
-  .h2 {
+.h2 {
       color: #4faba5;
       font-size: 28px;
       padding: 30px;
-  }
+}
 
 input[type=submit] {
     background-color: #4faba5;
@@ -224,6 +225,7 @@ input[type=submit]:hover {
 }
 
 #connect {
+    clear: left;
 	margin: 35px 13% 35px 13%;
 	height: 160px;
 	top: 16px;
