@@ -32,9 +32,10 @@ h1 {
 h2 {
     font-size: 28px;
     padding: 30px;
+    color: #4faba5
 }
 
-.aboutme {
+.aboutMe {
     border:6px outset solid black;
     background-color: white;
     padding-left: 20px;
@@ -81,8 +82,8 @@ header {
 
 footer {
     background-color: #666666;
-    margin-bottom: auto;
-    height: 90px;
+    margin: auto;
+    height: 50px;
 }
 
 #footerline {
@@ -94,13 +95,13 @@ footer {
 
 #footer {
     color: white;
-    margin: 0 auto;
+    margin: auto;
     width: 100%;
     text-align: center;
 }
 
 form {
-    border:6px outset solid black;
+    border: 6px outset solid black;
     background-color: white;
     padding-left auto;
     margin: 0 auto 0 auto;
@@ -214,4 +215,36 @@ input[type=submit]:hover {
     margin-top: 510px;
     width: 200px;
     text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        width: 80%;
+    }
+}
+
+#connect {
+	margin: 35px 13% 35px 13%;
+	height: 160px;
+	top: 16px;
+	background: #fff;
+	text-align: center;
+	position: relative;
+}
+
+#connect h3 {
+	font-size: 1.7em;
+	font-weight: bold;
+	padding: 15px 0px 0px 15px;
+	color: #898a8a;
+}
+
+#connect hr {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+#connect img {
+	margin: 0px 3px 0px 3px;
+    height: 54px;
 }
